@@ -1,0 +1,492 @@
+/*!* Skywings- Version - 1.0.0* Author : Jinu T Abraham* Last Update: 04-March-2018*/
+.banner-cus,.tint
+{
+    width:100%;
+    height:100vh;
+    left:0
+}
+.logo-prop,.tint
+{
+    position:absolute
+}
+@font-face
+{
+    font-family:Roboto;
+    src:url(../fonts/roboto/Roboto-Regular.ttf) format('truetype');
+    font-style:normal
+}
+@font-face
+{
+    font-family:Roboto-Thin;
+    src:url(../fonts/roboto/Roboto-Thin.ttf) format('truetype');
+    font-style:normal
+}
+@font-face
+{
+    font-family:Roboto-Medium;
+    src:url(../fonts/roboto/Roboto-Medium.ttf) format('truetype');
+    font-style:normal
+}
+@font-face
+{
+    font-family:Roboto-Bold;
+    src:url(../fonts/roboto/Roboto-Bold.ttf) format('truetype');
+    font-style:normal
+}
+body,html
+{
+    font-family:Roboto!important;
+    font-size:14px!important;
+    font-style:normal;
+    background-color:white;
+}
+.banner-cus
+{
+    background-repeat:no-repeat
+}
+.tint
+{
+    top:0;
+    background:rgba(0,0,0,.8);
+    z-index:1
+}
+.navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:focus,.navbar-default .navbar-nav>.open>a:hover,.navbar-default-cus
+{
+    background-color:#33001e;
+}
+.navbar-default-cus
+{
+    border-color:black;
+    text-transform:uppercase;
+    transition:background-color 5s ease-out;
+}
+.navbar-default .navbar-nav>li>a
+{
+    color:white!important
+}
+/*
+.navbar-default .navbar-nav>li>a:hover
+{
+    color:white!important;
+}*/
+.affix.navbar
+{
+    background-color:deeppink!important;
+    -webkit-box-shadow:0 2px 4px  #000;
+    -moz-box-shadow:0 2px 4px  #000;
+    box-shadow:4px 5px 8px  #000;
+}
+.dropdown-menu-cus
+{
+    background-color:white;
+    color:#000
+}
+.dropdown-menu-cus .navbar-right .dropdown-menu
+{
+    right:17px
+}
+.dropdown-menu-cus>li>a
+{
+    color:#fff!important
+}
+.dropdown-menu-cus>li>a:hover
+{
+    color:deeppink!important;
+    background-color:#fff
+}
+
+.dropdown:hover .dropdown-menu
+{
+    
+    background-color: black;
+}
+.navbar-right .dropdown-menu
+{
+    right:16px
+}
+.logo-prop
+{
+    z-index:2;
+    left:50%;
+    transform:translate(-50%,0);
+    margin-top:200px;
+    width:460px
+}
+.hr-cus
+{
+    width:50px;
+    height:2px;
+    border:none
+}
+.footer-cus,.sendbtn-cus
+{
+    background-color:#5076ba
+}
+.para-logo
+{
+    font-family:Roboto-Bold!important;
+    text-align:center;
+    color:#95d8f3;
+    font-size:24px
+}
+.about-cus
+{
+    padding-top:60px;
+    padding-bottom:60px
+}
+.para-about
+{
+    font-family:Roboto!important;
+    text-align:justify;
+    color:#282828;
+    font-size:20px;
+    padding-left:80px;
+    padding-right:80px;
+    line-height:40px
+}
+.modal-title-cus,.para-head
+{
+    font-family:Roboto-Bold!important
+}
+.para-head
+{
+    text-align:center;
+    color:#282828;
+    font-size:26px
+}
+.modal-dialog
+{
+    top:10%;
+    width:1000px
+}
+.modal-subtitle-cus
+{
+    font-family:Roboto!important;
+    color:#a9a9a9
+}
+.address-head,.founder-name
+{
+    font-family:Roboto-Bold!important
+}
+.modal-para
+{
+    font-size:16px;
+    text-align:justify;
+    padding-right:25px
+}
+.modal-footer-cus
+{
+    text-align:left;
+    font-size:16px!important
+}
+.modal-footer-cus>a
+{
+    text-decoration:none
+}
+.parallax
+{
+    background-image:url(../images/background2.jpg);
+    height:600px;
+    left:0;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover
+}
+.founder-cus
+{
+    padding-top:80px;
+    color:#fff
+}
+.founder-para
+{
+    text-align:center;
+    color:#fff
+}
+.founder-name
+{
+    color:#95d8f3
+}
+.founder-parag
+{
+    font-family:Roboto!important;
+    font-size:16px;
+    line-height:24px;
+    color:#fff;
+    text-align:left;
+    padding-right:50px;
+    padding-left:30px;
+    padding-top:20px;
+    font-weight:200
+}
+.founder-fr-name
+{
+    text-align:left;
+    color:#95d8f3;
+    padding-right:40px;
+    padding-left:30px
+}
+.founder-fr-post
+{
+    text-align:left;
+    padding-right:40px;
+    padding-left:30px
+}
+.founder-container
+{
+    padding-top:50px
+}
+.contact-cus
+{
+    padding-top:80px;
+    padding-bottom:80px
+}
+.footer-cus
+{
+    height:80px;
+    padding-top:20px;
+    padding-bottom:10px;
+    text-align:center;
+    color:#fff
+}
+.sendbtn-cus
+{
+    border-color:#53a7dc;
+    color:#fff
+}
+.sendbtn-cus:hover
+{
+    background-color:#53a7dc;
+    color:#fff
+}
+.address-head
+{
+    font-size:16px
+}
+.address-cus
+{
+    font-size:15px
+}
+.discl
+{
+    font-size:12px;
+    text-decoration:none!important;
+    color:#f3f3f3
+}
+.discl:hover
+{
+    color:#f3f3f3
+}
+
+/*@media only screen and (width:768px)
+{
+    .banner-cus
+    {
+        height:100vh
+    }
+    .logo-prop
+    {
+        margin-top:300px
+    }
+    .para-about
+    {
+        padding-left:10px;
+        padding-right:10px;
+        line-height:35px
+    }
+    .modal-dialog
+    {
+        width:750px;
+        top:10%
+    }
+    .modal-para
+    {
+        padding-left:30px;
+        padding-right:30px
+    }
+    .founder-para
+    {
+        padding-bottom:50px!important
+    }
+    .parallax
+    {
+        height:100%!important}
+}*/
+@media only screen and (max-width:960px)
+{
+    .banner-cus
+    {
+        height:100vh
+    }
+    .logo-prop
+    {
+        margin-top:30px
+    }
+    .para-about
+    {
+        padding-left:10px;
+        padding-right:10px;
+        line-height:35px
+    }
+    .modal-dialog
+    {
+        width:750px;
+        top:10%
+    }
+    fieldset{
+        margin-left: 150px!important;
+        margin-right: 150px!important;
+    }
+    .modal-para
+    {
+        padding-left:30px;
+        padding-right:30px
+    }
+    .founder-para
+    {
+        padding-bottom:50px!important
+    }
+    .parallax
+    {
+        height:100%!important
+    }
+}
+@media only screen and (max-width:767px)
+{
+    
+    .banner-cus,.tint
+    {
+        height:400px
+    }
+    .dropdown-menu-cus
+    {
+        display:none!important
+    }
+    .navbar-nav .open .dropdown-menu-cus
+    {
+        display:block!important
+    }
+    .navbar-default .navbar-nav>li>a:hover
+    {
+        color:#fff!important;
+    }
+    .navbar-nav>li>a{
+        padding-left: px;
+    }
+    .navbar-default-cus
+    {
+        margin-top:0!important;
+        margin-right:0!important;
+        padding-right:0!important
+    }
+    
+    .navbar-default .navbar-toggle
+    {
+        border-color:transparent
+    }
+    .navbar-default .navbar-nav>li>a
+    {
+        color:#fff!important
+    }
+    .navbar-default .navbar-toggle .icon-bar
+    {
+        background-color:#95d8f3!important;
+        width:26px!important
+    }
+    .affix.navbar
+    {
+        background-color:deeppink;
+        border-color:black!important
+    }
+    .logo-prop
+    {
+        margin-top:100px;
+        width:300px
+    }
+    .para-logo
+    {
+        font-size:14px
+    }
+    .para-about
+    {
+        font-size:18px;
+        padding-left:10px;
+        padding-right:10px;
+        line-height:30px
+    }
+    
+    fieldset{
+        margin-left: 100px!important;
+        margin-right: 100px!important;
+    }
+    .modal-dialog
+    {
+        width:100vw;
+        top:10%;
+        margin:auto
+    }
+    .modal-para
+    {
+        font-size:16px;
+        padding-right:10px
+    }
+    .modal-img-cus
+    {
+        width:300px
+    }
+    .founder-para
+    {
+        padding-bottom:50px!important
+    }
+    .founder-parag
+    {
+        padding-right:0;
+        padding-left:0
+    }
+    .founder-fr-name
+    {
+        padding-right:0;
+        padding-left:0
+    }
+    .founder-fr-post
+    {
+        padding-right:0;
+        padding-left:0
+    }
+    .contact-cus
+    {
+        padding-bottom:30px!important
+    }
+    .address-cus
+    {
+        font-size:15px!important;
+        padding-top:20px!important
+    }
+    .address-head
+    {
+        font-size:16px!important
+    }
+    .parallax
+    {
+        height:100%!important
+    }
+    .footer-cus
+    {
+        font-size:13px
+    }
+}
+@media only screen and (max-width:567px)
+{
+    fieldset
+    {
+        margin-left: 50px!important;
+        margin-right: 50px!important;
+    }
+}
+@media only screen and (max-width:320px)
+{
+    fieldset
+    {
+        margin-left: 5px!important;
+        margin-right: 5px!important;
+    }
+}
